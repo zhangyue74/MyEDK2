@@ -1,0 +1,38 @@
+## @file
+#  A simple, basic, EDK II native, "hello" application.
+#
+#   Copyright (c) 2010 - 2018, Intel Corporation. All rights reserved.<BR>
+#   SPDX-License-Identifier: BSD-2-Clause-Patent
+#   can't have chinese!!!!!!!!!!!!
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = MyLibTestApp
+  FILE_GUID                      = 226371B5-3428-0DB4-8034-36524FCB9C18
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = ShellCEntryLib
+
+#
+#  VALID_ARCHITECTURES           = IA32 X64
+#
+
+[Sources]
+  MyLibraryApp.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  ShellPkg/ShellPkg.dec
+
+[LibraryClasses]
+  UefiLib
+  ShellCEntryLib
+  MyLibraryLib  # !!!!!!!!!!!
+
+[buildOptions]
+    #MSFT:*_*_*_CC_FLAGS = /utf-16 le let file to /utf-16 le 
+
+[Protocols]
+
+

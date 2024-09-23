@@ -1,0 +1,39 @@
+## @file
+#  A simple, basic, EDK II native, "hello" application.
+#
+#   Copyright (c) 2010 - 2018, Intel Corporation. All rights reserved.<BR>
+#   SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010006
+  BASE_NAME                      = StdHelloWorld
+  FILE_GUID                      = 344C7023-EBF8-6728-1E3F-61AA5F44D965
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = ShellCEntryLib
+
+#
+#  VALID_ARCHITECTURES           = IA32 X64
+#
+
+[Sources]
+  StdHelloWorld.c
+
+[Packages]
+  StdLib/StdLib.dec
+  MdePkg/MdePkg.dec
+  ShellPkg/ShellPkg.dec
+  
+
+[LibraryClasses]
+  LibC
+  LibStdio 
+
+[buildOptions]
+    #MSFT:*_*_*_CC_FLAGS = /utf-16 le 
+
+[Protocols]
+    
+

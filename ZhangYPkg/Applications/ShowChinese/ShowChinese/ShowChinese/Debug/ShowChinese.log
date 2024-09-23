@@ -1,0 +1,12 @@
+﻿  'mybuild.bat' is not recognized as an internal or external command,
+  operable program or batch file.
+  The system cannot find the path specified.
+  'build.bat' is not recognized as an internal or external command,
+  operable program or batch file.
+D:\Vsiualstudio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: 命令“
+D:\Vsiualstudio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073:     cd /D D:\edk2
+D:\Vsiualstudio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073:     set WORKSPACE=D:\edk2
+D:\Vsiualstudio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073:     call mybuild.bat
+D:\Vsiualstudio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073:     call edk2\edksetup.bat
+D:\Vsiualstudio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073:     call build.bat -p EmulatorPkg\EmulatorPkg.dsc -a IA32 -m ZhangYPkg\Applications\ShowChinese\ShowChinese.inf -b DEBUG
+D:\Vsiualstudio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073:     ”已退出，代码为 1。

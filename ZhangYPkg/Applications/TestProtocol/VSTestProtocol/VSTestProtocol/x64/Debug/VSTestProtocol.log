@@ -1,0 +1,60 @@
+﻿  **********************************************************************
+  ** Visual Studio 2019 Developer Command Prompt v16.11.37
+  ** Copyright (c) 2021 Microsoft Corporation
+  **********************************************************************
+  [vcvarsall.bat] Environment initialized for: 'x86'
+  Using EDK2 in-source Basetools
+            PATH      = D:\edk2\BaseTools\BinWrappers\WindowsLike;D:\Vsiualstudio\2019\Community\Common7\IDE\\Extensions\Microsoft\IntelliCode\CLI;D:\Vsiualstudio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86;D:\Vsiualstudio\2019\Community\Common7\IDE\VC\VCPackages;D:\Vsiualstudio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;D:\Vsiualstudio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;D:\Vsiualstudio\2019\Community\MSBuild\Current\bin\Roslyn;D:\Vsiualstudio\2019\Community\Team Tools\Performance Tools;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\vs2019\;D:\Vsiualstudio\2019\Community\Common7\Tools\devinit;C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86;C:\Program Files (x86)\Windows Kits\10\bin\x86;D:\Vsiualstudio\2019\Community\\MSBuild\Current\Bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319;D:\Vsiualstudio\2019\Community\Common7\IDE\;D:\Vsiualstudio\2019\Community\Common7\Tools\;D:\edk2\BaseTools\Bin\Win32;D:\Vsiualstudio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64;D:\Vsiualstudio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86;C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86;;D:\Vsiualstudio\2019\Community\Common7\tools;D:\Vsiualstudio\2019\Community\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;D:\Vsiualstudio\2019\Community\MSBuild\Current\Bin;C:\windows\Microsoft.NET\Framework\v4.0.30319\;;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\zhangyue74\AppData\Local\Microsoft\WindowsApps;D:\VSCode\Microsoft VS Code\bin;;D:\Vsiualstudio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;D:\Vsiualstudio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;D:\Vsiualstudio\2019\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe
+  
+       WORKSPACE      = D:\edk2
+   PACKAGES_PATH      = D:\edk2-libc
+  EDK_TOOLS_PATH      = D:\edk2\BaseTools
+  BASE_TOOLS_PATH     = D:\edk2\BaseTools
+   EDK_TOOLS_BIN      = D:\edk2\BaseTools\Bin\Win32
+       CONF_PATH      = D:\edk2\Conf
+       PYTHON_COMMAND = py -3
+           PYTHONPATH = D:\edk2\BaseTools\Source\Python;
+  
+  Build environment: Windows-10-10.0.22631-SP0
+  Build start time: 15:28:16, Jul.22 2024
+  
+  WORKSPACE        = d:\edk2
+  PACKAGES_PATH    = d:\edk2-libc
+  EDK_TOOLS_PATH   = d:\edk2\basetools
+  EDK_TOOLS_BIN    = d:\edk2\basetools\bin\win32
+  CONF_PATH        = d:\edk2\conf
+  PYTHON_COMMAND   = py -3
+  
+  Processing meta-data 
+  .
+  Architecture(s)  = X64
+  Build target     = DEBUG
+  Toolchain        = VS2019
+  
+  Active Platform          = d:\edk2\ZhangYPkg\ZhangYPkg.dsc
+  Active Module            = d:\edk2\ZhangYPkg\Applications\TestProtocol\TestProtocol.inf
+   done!
+  Generating code . done!
+  Generating makefile . done!
+  Building ... d:\edk2\MdeModulePkg\Library\BaseRngLibTimerLib\BaseRngLibTimerLib.inf [X64]
+  Building ... d:\edk2\MdePkg\Library\UefiLib\UefiLib.inf [X64]
+  Building ... d:\edk2\MdePkg\Library\UefiApplicationEntryPoint\UefiApplicationEntryPoint.inf [X64]
+  Building ... d:\edk2\MdePkg\Library\BaseTimerLibNullTemplate\BaseTimerLibNullTemplate.inf [X64]
+  Building ... d:\edk2\MdePkg\Library\UefiDevicePathLib\UefiDevicePathLib.inf [X64]
+  Building ... d:\edk2\MdePkg\Library\UefiRuntimeServicesTableLib\UefiRuntimeServicesTableLib.inf [X64]
+  Building ... d:\edk2\MdePkg\Library\UefiMemoryAllocationLib\UefiMemoryAllocationLib.inf [X64]
+  Building ... d:\edk2\MdePkg\Library\UefiBootServicesTableLib\UefiBootServicesTableLib.inf [X64]
+  Building ... d:\edk2\MdePkg\Library\BaseDebugLibSerialPort\BaseDebugLibSerialPort.inf [X64]
+  Building ... d:\edk2\MdePkg\Library\BaseSerialPortLibNull\BaseSerialPortLibNull.inf [X64]
+  Building ... d:\edk2\MdePkg\Library\BasePrintLib\BasePrintLib.inf [X64]
+  Building ... d:\edk2\MdePkg\Library\BaseDebugPrintErrorLevelLib\BaseDebugPrintErrorLevelLib.inf [X64]
+  Building ... d:\edk2\MdePkg\Library\BaseLib\BaseLib.inf [X64]
+  Building ... d:\edk2\MdePkg\Library\BaseMemoryLib\BaseMemoryLib.inf [X64]
+  Building ... d:\edk2\MdePkg\Library\BasePcdLibNull\BasePcdLibNull.inf [X64]
+  Building ... d:\edk2\MdePkg\Library\RegisterFilterLibNull\RegisterFilterLibNull.inf [X64]
+  Building ... d:\edk2\ZhangYPkg\Applications\TestProtocol\TestProtocol.inf [X64]
+  
+  - Done -
+  Build end time: 15:28:18, Jul.22 2024
+  Build total time: 00:00:02
+  

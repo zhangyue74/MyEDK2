@@ -1,0 +1,43 @@
+## @file
+#  Sample UEFI Application Reference EDKII Module.
+#
+#  Copyright (c) 2019, Intel Corporation. All rights reserved.<BR>
+# (C) Copyright 2020 Hewlett Packard Enterprise Development LP<BR>
+#
+# SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+#
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010006
+  BASE_NAME                      = TestProtocol
+  FILE_GUID                      = 089A1C3F-C734-4C15-7B62-45090C79D6A0
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+[Sources]
+  TestProtocol.c
+
+[Packages]
+  EmulatorPkg/EmulatorPkg.dec
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
+  UefiBootServicesTableLib
+  RngLib
+
+  
+  
+
+[Protocols]
+  gEfiSerialIoProtocolGuid        ## CONSUMES
+  gEfiRngProtocolGuid                  ## CONSUMES
+
+[Guids]
+

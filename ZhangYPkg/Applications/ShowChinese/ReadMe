@@ -1,0 +1,5 @@
+# 20240725
+    编译不成功，无法正常显示字符串，但是ZhangYPkg\Applications\ShowChinese\TestShowChinese.c
+    下的 ShellAppMain 已经执行。
+# 20240726
+    怀疑 PutPixel函数无法正常执行，

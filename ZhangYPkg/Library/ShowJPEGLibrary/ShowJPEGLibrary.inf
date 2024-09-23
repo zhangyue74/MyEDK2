@@ -1,0 +1,42 @@
+
+## @file
+#  A simple, basic, EDK II native, "hello" application.
+#
+#   Copyright (c) 2010 - 2018, Intel Corporation. All rights reserved.<BR>
+#   SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010006
+  BASE_NAME                      = ShowJPEGLibrary
+  FILE_GUID                      = B0F5F347-6E6E-871E-8927-F9FD7BA57B82
+  MODULE_TYPE                    = BASE
+  VERSION_STRING                 = 1.0
+  LIBRARY_CLASS                  = ShowJPEGLib
+  CONSTRUCTOR                    = ShowLibraryConstructor
+  DESTRUCTOR                     = ShowLibraryLibDestructor
+
+#
+#  VALID_ARCHITECTURES           = IA32 X64
+#
+
+[Sources]
+  ShowJPEGLibrary.c
+  ShowJPEGLibrary.h
+
+[Packages]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  
+
+[LibraryClasses]
+  UefiLib
+  BaseLib
+
+[buildOptions]
+    #MSFT:*_*_*_CC_FLAGS = /utf-16 le 
+
+[Protocols]
+    
+

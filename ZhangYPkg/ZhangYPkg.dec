@@ -1,0 +1,22 @@
+## @file
+# Use to definite public interference and data.
+# 
+# This is the Emu Emulation Environment Platform
+#
+# Copyright (c) 2008 - 2022, Intel Corporation. All rights reserved.<BR>
+# Portions copyright (c) 2011, Apple Inc. All rights reserved.
+# (C) Copyright 2020 Hewlett Packard Enterprise Development LP<BR>
+#
+#    SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+##
+
+[Defines]
+  DEC_SPECIFICATION              = 0x00010005
+  PACKAGE_NAME                   = ZhangYPkg
+  PACKAGE_GUID                   = 05A1A739-F7C0-CBB9-1390-42FCB880990A
+  PACKAGE_VERSION                = 0.1
+
+[LibraryClasser]
+
+
